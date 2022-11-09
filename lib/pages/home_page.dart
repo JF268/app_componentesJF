@@ -2,6 +2,8 @@ import 'package:app_componentes/pages/activities.dart';
 import 'package:app_componentes/pages/alert_page.dart';
 import 'package:app_componentes/pages/avatar_page.dart';
 import 'package:app_componentes/pages/card_page.dart';
+import 'package:app_componentes/pages/input_page.dart';
+import 'package:app_componentes/pages/selection_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -71,6 +73,14 @@ class HomePage extends StatelessWidget {
               ItemComponentWidget(
                 title: "Activities",
                 toPage: Activities(),
+              ),
+               ItemComponentWidget(
+                title: "Inputs",
+                toPage: InputPage(),
+              ),
+               ItemComponentWidget(
+                title: "Selection",
+                toPage: SelectionPage(),
               ),
             ],
           ),
